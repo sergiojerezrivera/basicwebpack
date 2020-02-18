@@ -25,6 +25,10 @@ module.exports = {
                 test: /\.(sa|sc|c)ss$/,
                 use: [
                     {
+                        // Adds CSS to the DOM by injecting a `<style>` tag
+                        loader: 'style-loader'
+                      },
+                    {
                         loader: MiniCssExtractPlugin.loader
                     },
                     {
