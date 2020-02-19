@@ -1,0 +1,33 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+}
+
+.card-body {
+    display: flex;
+}
+
+.align-btn {
+    align-self: flex-end;
+}
+
+#card1 {
+    background-image: url("../src/images/1.jpg");
+    @include card-structure;
+}
+
+#card2 {
+    background-image: url("../src/images/2.jpg");
+    @include card-structure;
+}
+
+#card3 {
+    background-image: url("../src/images/3.jpg");
+    @include card-structure;
+}
+
+#card4 {
+    background-image: url("../src/images/4.jpg");
+    @include card-structure;
+}
